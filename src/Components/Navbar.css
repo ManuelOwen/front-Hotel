@@ -1,0 +1,37 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color:rgb(250, 250, 52);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+    
+
+
+}
+.navbar a{
+    margin: 15px;
+    padding-left: 38px;
+    display: flex;
+     justify-content: flex-end;
+    text-decoration: none;
+    align-items: center;
+    
+    /*align-items: center;
+    display: flex; */
+}
+.navbar span{
+    padding: 8px;
+}
+.navbar:hover {
+   cursor: pointer;
+    background-color:chartreuse;
+    color:black;
+    transition: .3s;
+   
+}
+.navbar a Fc{
+    padding: 1rem;
+}

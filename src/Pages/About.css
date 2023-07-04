@@ -1,0 +1,33 @@
+.general{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: blue;
+}
+.part-one{
+    /* background-image: url('../../images/nairobi.png.png'); */
+    /* background-size:cover; */
+    background-image: url('../../images/back3.png.png');
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 26px;
+    background-color: rgb(123, 130, 130);
+    color: aliceblue;
+    border-width: 12px;
+}
+/* .part-two{
+    background-image: url('../../images/back3.png.png');
+    height: 90vh; */
+    /* width: 50%; display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 26px; 
+    background-color: brown;
+    color: aliceblue;
+    background-size: cover;
+} */

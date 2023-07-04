@@ -1,0 +1,108 @@
+.story{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../images/hotel-room.png.png');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.services{
+    /* background-color: orange; */
+    color:aliceblue;
+    height: 50vh;
+    width: 25%;
+    font-size: 60px;
+    border-radius: 7px;
+    /* gap: 5px; */
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+ h2{
+    font-size: 40px;
+    font-family: italics;
+    color: rgb(239, 213, 15);
+
+}
+.describtion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 7px;
+    font-size: 22px;
+    color:rgb(90, 238, 4);
+
+}
+.describtion span{
+    color: aqua;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serifzxc  hg                                                                                 ;
+}
+.describtion ul li{
+    list-style: none;
+    font-size: 30px;
+    color:rgb(6, 132, 242);
+}
+.core-values{
+/* background-color: red; */
+height:50vh;
+width: 25%;
+/* display: flex; */
+justify-content: center;
+align-items: center;
+text-align: center;
+border-radius: 10px;
+}
+.tittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    color: purple;
+    font-size: 50px;
+}
+.description p{
+font-size: 30px;
+}
+
+.description ul li{
+color:rgb(104, 232, 241);
+list-style: none;
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+font-weight: 700;
+}
+.mission{
+    /* background-color: greenyellow; */
+    height: 50vh;
+    width: 25%;
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.head{
+    color: aqua;
+    font-size: 50px;
+
+}
+.desc{
+    color:rgb(252, 244, 5);
+    font-size: 30px;
+
+}
+.desc ul li{
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}

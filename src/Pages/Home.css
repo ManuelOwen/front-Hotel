@@ -1,0 +1,124 @@
+
+.Home-container {
+   
+    /* opacity: 0.65; */
+    animation:animate 50s ease-in-out infinite;
+    /* --bg-image-opacity: .60;
+    background-color: rgba(0, 0, 0, 0.25);
+
+    isolation: isolate;
+    position: relative;
+    */
+    /* background-image: url('../../images/back2.png.png');
+    background-image: url('../../images/back3.png.png');
+    background-image: url('../../images/back4.png.png'); */
+    /* overflow: auto; */
+  
+    /* animation: slideAnimation 10s linear infinite;  */
+  /* }
+  .Home-container::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: -1;
+    opacity:var(--bg-image-opacity);
+    background-image: var(--bg-image);
+    
+    background-color: rgba(0, 0, 0, var(--bg-image-opacity));*/
+
+  }
+   @keyframes animate {
+    0%, 
+
+    100% {
+      background-image: url('../../images/background.png.jpg');
+    }
+    20%{
+      background-image: url('../../images/back2.png.png');
+    }
+    40%{
+      background-image: url('../../images/back3.png.png');
+    }
+    60%{
+      background-image: url('../../images/back4.png.png');
+    }
+  } 
+  
+ .slide{
+  
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+   
+} 
+ 
+.about{
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+     /* font-size: 50px;  */
+    /* background-color: blue; */
+   padding-top: 30px;
+    border-radius: 7px;
+    box-shadow:5px;
+    font-size: 30px;
+    color:aliceblue;
+}
+/* .about:hover{
+    color: yellow;
+    cursor: pointer;
+    background-color: rgb(216, 216, 215);
+    transition: .3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.menu{
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+    /* background-color: blueviolet; */
+    border-radius: 7px;
+    box-shadow:5px;
+    font-size: 30px;
+    color:aliceblue;
+}
+/* .menu:hover{
+    color: rgb(22, 214, 57);
+    cursor: pointer;
+    background-color: rgb(216, 216, 215);
+    transition: .3s;
+} */
+.accomodation{
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+    /* background-color:chartreuse; */
+    border-radius: 7px;
+    box-shadow:5px;
+  font-size: 30px; 
+  color:aliceblue;
+}
+/* .accomodation:hover{
+    color: rgb(1, 8, 2);
+    cursor: pointer;
+    background-color: rgb(216, 216, 215);
+    transition: .3s;
+} */
+
+.location{
+    width: 100%;
+    height: 20vh;
+    justify-content: center;
+    text-align: center;
+    /* background-color:coral; */
+    border-radius: 7px;
+    box-shadow:5px;
+    font-size: 30px;
+    color:aliceblue;
+} 
+  

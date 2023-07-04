@@ -1,0 +1,70 @@
+.contact{
+    height: 100vh;
+    width: 100%;
+    /* background-color: brown; */
+}
+.form{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding-top: 25px;
+    background-image: url('../../images/thika2.png.png');
+  
+   
+   
+}
+input{
+    width: 35%;
+    height:2rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 10px;
+    border-radius: 7px;
+}
+input:hover{
+    cursor: pointer;
+}
+textarea{
+    width:40%;
+    height: 15rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   padding-top: 15px;
+   font-size: 18px;
+}
+button{
+    width: 10%;
+    height: 3rem;
+    border-radius: 7px;
+    font-size: 18px;
+    margin: 10px;
+    background-color: green;
+}
+button:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.info{
+    width: 20%;
+    height: 2rem;
+    background-color: orangered;
+    color: aqua;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    border-radius: 7px;
+}

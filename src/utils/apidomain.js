@@ -1,0 +1,1 @@
+export const apidomain="hotelapikyu.azurewebsites.net"
